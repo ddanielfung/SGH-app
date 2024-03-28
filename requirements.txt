@@ -9,7 +9,7 @@
 # !pipconflictchecker
 
 ##### Core scientific packages
-jupyter
+# jupyter
 matplotlib
 numpy
 pandas
@@ -19,51 +19,54 @@ scipy
 scikit-learn
 imbalanced-learn
 
-# Optional: the XGBoost library is only used in chapter 7
-xgboost
+##### Visualisations packages
+seaborn
 
-##### TensorFlow-related packages
+# # Optional: the XGBoost library is only used in chapter 7
+# xgboost
 
-# If you want to use a GPU, it must have CUDA Compute Capability 3.5 or
-# higher support, and you must install CUDA, cuDNN and more: see
-# tensorflow.org for the detailed installation instructions.
+# ##### TensorFlow-related packages
 
-tensorflow # or tensorflow-gpu==1.15.5 for GPU support
+# # If you want to use a GPU, it must have CUDA Compute Capability 3.5 or
+# # higher support, and you must install CUDA, cuDNN and more: see
+# # tensorflow.org for the detailed installation instructions.
 
-tensorboard
+# tensorflow # or tensorflow-gpu==1.15.5 for GPU support
 
-##### Reinforcement Learning library (chapter 16)
+# tensorboard
 
-# There are a few dependencies you need to install first, check out:
-# https://github.com/openai/gym#installing-everything
-# gym[atari,Box2D]
-# On Windows, install atari_py using:
-# pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
+# ##### Reinforcement Learning library (chapter 16)
 
-##### Image manipulation
-Pillow
-graphviz
-pyglet
-scikit-image
+# # There are a few dependencies you need to install first, check out:
+# # https://github.com/openai/gym#installing-everything
+# # gym[atari,Box2D]
+# # On Windows, install atari_py using:
+# # pip install --no-index -f https://github.com/Kojoley/atari-py/releases atari_py
 
-#pyvirtualdisplay # needed in chapter 16, if on a headless server
-                  # (i.e., without screen, e.g., Colab or VM)
+# ##### Image manipulation
+# Pillow
+# graphviz
+# pyglet
+# scikit-image
+
+# #pyvirtualdisplay # needed in chapter 16, if on a headless server
+#                   # (i.e., without screen, e.g., Colab or VM)
 
 
-##### Additional utilities
+# ##### Additional utilities
 
-# Efficient jobs (caching, parallelism, persistence)
-joblib
+# # Efficient jobs (caching, parallelism, persistence)
+# joblib
 
-# Nice utility to diff Jupyter Notebooks.
-nbdime
+# # Nice utility to diff Jupyter Notebooks.
+# nbdime
 
-# May be useful with Pandas for complex "where" clauses (e.g., Pandas
-# tutorial).
-numexpr
+# # May be useful with Pandas for complex "where" clauses (e.g., Pandas
+# # tutorial).
+# numexpr
 
-# Optional: these libraries can be useful in the classification chapter,
-# exercise 4.
-nltk
-urlextract
-spacy
+# # Optional: these libraries can be useful in the classification chapter,
+# # exercise 4.
+# nltk
+# urlextract
+# spacy
