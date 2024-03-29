@@ -18,6 +18,7 @@ scipy
 ##### Machine Learning packages
 scikit-learn
 imbalanced-learn
+statsmodels
 
 ##### Visualisations packages
 seaborn
